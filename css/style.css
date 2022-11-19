@@ -1,0 +1,28 @@
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+.design_gallery {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto;
+    width: 90%;
+}
+
+.design {
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.drawing_gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    max-width: 100%;
+    justify-self: center;
+    align-self: center;
+    box-sizing: border-box;
+}
