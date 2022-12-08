@@ -4,36 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Miyajima.png">
     <link rel="reset" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
 <body>
     <header>
+        <p>Matthew Yeh</p>
         <nav>
             <div class="skip"><a href="#main">Skip to Main Content</a></div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="drawings.html">Drawings</a></li>
-                <li><a href="projects.html">Graphic Design</a></li>
+                <li class="highlighted"><a href="index.html">Home</a></li>
+                <li><a href="drawings.html">Illustrations</a></li>
+                <li><a href="graphic_design.html">Design</a></li>
+                <li><a href="design_project2.html">Projects</a></li>
             </ul>
         </nav>
-        <h1>Matthew Yeh</h1>
     </header>
     <main id="main">
-        <div>
-            <p>Hi, I'm Matthew. I'm a student at the University of Michigan.</p>
+        <div class="intro">
+            <div class="card">
+                <div class="frame">
+                    <img class="pfp" src="assets/Profile Picture.jpeg" alt="An outdoor photograph of Matthew Yeh smiling in a blue collared shirt">
+                </div>
+            </div>
+            <div class="info">
+                <h1 class="hi">Hi, I'm Matthew Yeh.</h1>
+                <p>I'm a student at the University of Michigan interested in design and software development. 
+                    Some of my skills include HTML/CSS, Python, Figma, and Adobe Illustrator. After graduation, I hope to pursue a career in the tech industry.
+                    I was born and raised in Ann Arbor, Michigan.
+                </p>
+                <p>In my free time I enjoy drawing, eating good food, and going outside. 
+                    I'm also a passionate collector of shiny cardboard and fancy plastic.
+                </p>
+                <a class="resume" href="assets/Matthew Yeh Resume 2022-2023 (1).pdf" download>
+                    Download my resume here!
+                </a>
+            </div>
+            
         </div>
-        <div>
-            <a href="drawings.html">Drawings</a>
-        </div>
-        <div>
-            <a href="projects.html">Graphic Design</a>
+
+
+        <div class="topics">
+
+                <a href="drawings.html">
+                    <div class="topic illustrations">
+                        <h2>Illustrations</h2>
+                    </div>
+                </a>
+
+
+                <a href="graphic_design.html">
+                    <div class="topic designbutton">
+                        <h2>Design</h2>
+                    </div>
+                </a>
+
+
+                <a href="design_project2.html">
+                    <div class="topic projects">
+                        <h2>Projects</h2>
+                    </div>
+                </a>
+
         </div>
     </main>
-
     <footer>
+        <div class="footer_icons">
+            <div>
+                <a href="https://www.linkedin.com/in/matthew-t-yeh">
+                    <img src="assets/icons/iconmonstr-linkedin-3.svg" alt="LinkedIn logo">
+                </a>
+            </div>
+            <div>
+                <a href="mailto:mattyeh@umich.edu">
+                    <img src="assets/icons/iconmonstr-email-3.svg" alt="email icon">
+                </a>
+            </div>
+        </div>
         <p>&copy; Matthew Yeh 2022</p>
-    </footer>
+    </footer> 
 </body>
 </html>
